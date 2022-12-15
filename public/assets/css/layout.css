@@ -1,0 +1,62 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.home .header{
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    gap: 100px;
+    
+    width: auto;
+    height: auto;
+    
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 100px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.home .header .hand .button {
+    padding: 50px 50px 50px 50px;
+}
+
+.home .header .hand .button button{
+    border-radius: 20px; 
+    
+}
+
+.home .middle{
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    gap: 100px;
+    
+    width: auto;
+    height: auto;
+    
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 100px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.home .middle .car .bike {
+    padding: 50px 50px 50px 50px;
+}
+
+/* .container{
+    padding: 20px 20px 20px 20px;
+    background-color: rgba(169, 169, 169, 0.8);
+    margin-top: 100px;
+    width: 50%;
+} */
